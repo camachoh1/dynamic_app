@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const apiBaseUrl = "http://localhost:3001/api/";
+  const apiBaseUrl = "/api/";
 
   const pgContainer = document.getElementsByClassName("pg-container");
   const pgForm = pgContainer.item(0).querySelector(".form-container");
